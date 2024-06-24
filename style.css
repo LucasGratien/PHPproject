@@ -1,0 +1,113 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("./img/lacannecy.png");
+    background-size: cover;
+    color: #333; /* Couleur de texte principale */
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffffb4; /* Fond blanc pour contraster */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336); /* Légère ombre pour la profondeur */
+
+}
+
+/* Titres */
+.titre1 {
+    color: #2c3e50; /* Couleur principale des titres */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2980b9; /* Couleur secondaire pour les sous-titres */
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style pour la barre de navigation */
+.nav {
+    background-color: #3498db; /* Bleu vif rappelant le lac d'Annecy */
+    color: #fff; /* Texte en blanc */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #2980b9; /* Bordure inférieure plus foncée */
+}
+
+.nav a {
+    color: #fff; /* Couleur des liens */
+    text-decoration: none;
+    padding: 20px;
+    transition: color 0.3s ease; /* Transition fluide pour le changement de couleur au survol */
+font-size: 25px;
+}
+
+.nav a:hover {
+    color: #ecf0f1; /* Couleur des liens au survol */
+}
+
+/* Style pour le pied de page */
+.foot {
+    background-color: #2c3e50; /* Bleu foncé pour le pied de page */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Centre les éléments horizontalement */
+}
+
+.foot p {
+    margin: 5px;
+    cursor: pointer; /* Curseur indiquant que le texte est cliquable */
+}
+
+/* Style pour la liste des activités */
+ul {
+    list-style-type: none; /* Suppression des puces */
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+ul li strong {
+    color: #2980b9; /* Couleur pour les titres des activités */
+}
+
+/* Style pour les paragraphes dans la liste */
+ul li p {
+    margin-top: 5px;
+}
+
+/* Style pour les images */
+.logo {
+    width: 100px; /* Taille de l'image du logo */
+    height: auto; /* Hauteur ajustée automatiquement pour conserver les proportions */
+    display: block; /* Permet de contrôler les marges automatiques */
+    margin-left: auto; /* Alignement automatique à gauche */
+    margin-right: auto; /* Alignement automatique à droite */
+}
