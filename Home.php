@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
@@ -6,8 +6,10 @@
     <title>Project_php</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-  <?php include 'Header.php';?>
+  <body> -->
+  <?php 
+  $title = 'index';
+  include 'Home.php';?>
  <div class="container">
       <h1 class="titre1">Annecy : La Perle des Alpes</h1>
       <p>
@@ -63,9 +65,6 @@
         </li>
       </ul>
     </div>
-    <footer class="foot">
-      <p>Résaux</p>
-      <p>FAQ</p>
-    </footer>
-  </body>
-</html>
+    <?php include 'footer.php';?>
+  <!-- </body>
+</html> -->

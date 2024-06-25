@@ -1,113 +1,299 @@
 /* Réinitialisation des marges et des paddings */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Style du corps de la page */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-image: url("./img/lacannecy.png");
-    background-size: cover;
-    color: #333; /* Couleur de texte principale */
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url("./img/lacannecy.png");
+  background-size: cover;
+  color: #333; /* Couleur de texte principale */
+  margin: 0;
+  padding: 0;
 }
 
 /* Conteneur principal */
 .container {
-    max-width: 800px;
-    margin: 10px auto;
-    padding: 20px;
-    background-color: #ffffffb4; /* Fond blanc pour contraster */
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336); /* Légère ombre pour la profondeur */
-
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #ffffffb4; /* Fond blanc pour contraster */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.336); /* Légère ombre pour la profondeur */
 }
 
 /* Titres */
 .titre1 {
-    color: #2c3e50; /* Couleur principale des titres */
-    font-size: 24px;
-    margin-bottom: 20px;
+  color: #2c3e50; /* Couleur principale des titres */
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 h2 {
-    color: #2980b9; /* Couleur secondaire pour les sous-titres */
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  color: #2980b9; /* Couleur secondaire pour les sous-titres */
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* Style pour la barre de navigation */
 .nav {
-    background-color: #3498db; /* Bleu vif rappelant le lac d'Annecy */
-    color: #fff; /* Texte en blanc */
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 2px solid #2980b9; /* Bordure inférieure plus foncée */
+  background-color: #3498db; /* Bleu vif rappelant le lac d'Annecy */
+  color: #fff; /* Texte en blanc */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #2980b9; /* Bordure inférieure plus foncée */
 }
 
 .nav a {
-    color: #fff; /* Couleur des liens */
-    text-decoration: none;
-    padding: 20px;
-    transition: color 0.3s ease; /* Transition fluide pour le changement de couleur au survol */
-font-size: 25px;
+  color: #fff; /* Couleur des liens */
+  text-decoration: none;
+  padding: 20px;
+  transition: color 0.3s ease; /* Transition fluide pour le changement de couleur au survol */
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .nav a:hover {
-    color: #ecf0f1; /* Couleur des liens au survol */
+  color: #ecf0f1; /* Couleur des liens au survol */
 }
 
 /* Style pour le pied de page */
 .foot {
-    background-color: #2c3e50; /* Bleu foncé pour le pied de page */
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around; /* Centre les éléments horizontalement */
+  background-color: #2c3e50; /* Bleu foncé pour le pied de page */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Centre les éléments horizontalement */
 }
 
 .foot p {
-    margin: 5px;
-    cursor: pointer; /* Curseur indiquant que le texte est cliquable */
+  margin: 5px;
+  cursor: pointer; /* Curseur indiquant que le texte est cliquable */
 }
 
 /* Style pour la liste des activités */
 ul {
-    list-style-type: none; /* Suppression des puces */
-    padding-left: 0;
+  list-style-type: none; /* Suppression des puces */
+  padding-left: 0;
 }
 
 ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 ul li strong {
-    color: #2980b9; /* Couleur pour les titres des activités */
+  color: #2980b9; /* Couleur pour les titres des activités */
 }
 
 /* Style pour les paragraphes dans la liste */
 ul li p {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /* Style pour les images */
 .logo {
-    width: 100px; /* Taille de l'image du logo */
-    height: auto; /* Hauteur ajustée automatiquement pour conserver les proportions */
-    display: block; /* Permet de contrôler les marges automatiques */
-    margin-left: auto; /* Alignement automatique à gauche */
-    margin-right: auto; /* Alignement automatique à droite */
+  width: 100px; /* Taille de l'image du logo */
+  height: auto; /* Hauteur ajustée automatiquement pour conserver les proportions */
+  display: block; /* Permet de contrôler les marges automatiques */
+  margin-left: auto; /* Alignement automatique à gauche */
+  margin-right: auto; /* Alignement automatique à droite */
+}
+.histoire {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.Presentation {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffffbb;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.activities h2 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.activities ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.team h2 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.join {
+  text-align: center;
+  margin-top: 20px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+  width: 100vw;
+  height:80vh;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#container{
+    width: 50%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff77;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Titre du formulaire */
+.contact h1 {
+
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style des champs du formulaire */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label des champs */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input et textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+  resize: vertical; /* Permettre le redimensionnement vertical du textarea */
+}
+
+/* Bouton Envoyer */
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Changement de couleur au survol */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 14px;
+  }
+}
+.catalogue {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff9f;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalogue h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.activite {
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.activite img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.activite .info {
+  flex: 1;
+  padding: 20px;
+}
+
+.activite h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.activite p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.activite a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.activite a:hover {
+  background-color: #555;
+}
+
+/* Media Query pour une meilleure réactivité */
+@media (max-width: 768px) {
+  .activite {
+    flex-direction: column;
+  }
+
+  .activite img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .activite .info {
+    padding: 15px;
+  }
 }
