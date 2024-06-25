@@ -1,6 +1,6 @@
 <?php 
 $title = 'catalogue';
-include 'Header.php';?>
+?>
 <div class="catalogue">
         <h1>Activités Touristiques à Annecy</h1>
 
@@ -44,4 +44,3 @@ include 'Header.php';?>
             </div>
         </section>
     </div>
-    <?php include 'footer.php';?>

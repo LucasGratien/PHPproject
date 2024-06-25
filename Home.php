@@ -8,8 +8,8 @@
   </head>
   <body> -->
   <?php 
-  $title = 'index';
-  include 'Home.php';?>
+  $title = 'Home';
+?>
  <div class="container">
       <h1 class="titre1">Annecy : La Perle des Alpes</h1>
       <p>
@@ -65,6 +65,5 @@
         </li>
       </ul>
     </div>
-    <?php include 'footer.php';?>
   <!-- </body>
 </html> -->

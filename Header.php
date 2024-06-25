@@ -10,10 +10,10 @@
     <header class="nav">
         <nav>
         <img class="logo" src="./img/logoannecy.png" alt="logoannecy" />
-       <a href="Home.php">Acceuil</a>
-        <a href="catalogue.php">Catalogue</a>
-        <a href="histoire.php">Notre Histoire</a>
-        <a href="Contact.php">Contact</a>
+        <a href="index.php?page=Home">Accueil</a>
+      <a href="index.php?page=catalogue">Catalogue</a>
+      <a href="index.php?page=histoire">Notre Histoire</a>
+      <a href="index.php?page=Contact">Contact</a>
     </div>
       </header>
 <!-- </body>

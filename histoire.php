@@ -8,8 +8,7 @@
 </head>
 <body class="histoire"> -->
 <?php 
-$title = 'histoire';
-include 'Header.php';?>
+$title = 'histoire';?>
 <div class="Presentation">
         <header class="header">
             <h1>Annecy Aventure</h1>
@@ -40,6 +39,4 @@ include 'Header.php';?>
             <p>Que vous soyez un visiteur régulier ou que ce soit votre première fois à Annecy, laissez Annecy Aventure être votre guide dans cette ville magnifique. Réservez dès maintenant et préparez-vous à vivre des moments magiques au cœur des Alpes françaises.</p>
         </section>
     </div>
-<?php include 'footer.php';?>
-<!-- </body>
-</html> -->
+
