@@ -32,6 +32,12 @@ include 'Header.php';
   ?>
 </div>
 
+<?php  
+function bonjour(){
+    echo 'Bonjour à tous';
+}
+bonjour();
+ ?>
 <?php include 'footer.php'; ?>
 
 

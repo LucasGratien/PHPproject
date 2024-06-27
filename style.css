@@ -246,15 +246,7 @@ button[type="submit"]:hover {
     font-size: 14px;
   }
 }
-.catalogue {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #ffffff9f;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
+/* Style du catalogue */
 .catalogue h1 {
   font-size: 2rem;
   text-align: center;
@@ -320,4 +312,5 @@ button[type="submit"]:hover {
   .activite .info {
     padding: 15px;
   }
+}
 }

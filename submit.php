@@ -1,14 +1,25 @@
-<h1>Message bien reçu !</h1>
-        
-<div class="card">
+<?php 
+session_start();
+function erreur($errors){   
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  
+  if (empty($errors)) {
+          $_SESSION['nom'] = $_POST ["nom"]; 
+          $_SESSION['email'] = $_POST ["email"];
+          $_SESSION['message'] = $_POST ["message"];
+          $_SESSION['form_errors'] = $errors;
+     
+  $file = 'contact.txt';
+  $data = "Nom: ".$_SESSION['nom']."\nEmail:  ".$_SESSION['email']."\nMessage:".$_SESSION['message']."\n\n";
+          
+          file_put_contents($file, $data, FILE_APPEND);
+      echo nl2br(htmlentities($data));
+      header("Location: http://localhost:8000/index.php?page=Contact");
+      exit();
+      
     
-    <div class="card-body">
-        <h5 class="card-title">Rappel de vos informations</h5>
-        <p class="card-text"><b>Email</b> : <?php echo $_GET['email']; ?></p>
-        <p class="card-text"><b>Message</b> : <?php echo $_GET['message']; ?></p>
-    </div>
-</div>
-<?php $name = test_input($_POST["name"]);
-if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-  $nameErr = "Only letters and white space allowed";
-} ?>
+      } 
+    
+    }
+   
+  } 
